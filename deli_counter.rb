@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
   customers = ""
-  katz_deli.map.with_index{|person, i| }
+  katz_deli.map.with_index{|person, i| customers.concat("#{i}. #{person}") }
   puts "The line is currently: #{}"
   end
 end
