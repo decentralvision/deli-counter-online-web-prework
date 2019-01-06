@@ -6,6 +6,6 @@ def line(katz_deli)
   else
   customers = ""
   katz_deli.map.with_index{|person, i| customers.concat(" #{i+1}. #{person}") }
-  puts "The line is currently: #{customers}"
+  puts "The line is currently:#{customers}"
   end
 end
